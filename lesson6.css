@@ -1,6 +1,6 @@
 
 body {
-    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://miro.medium.com/v2/resize:fit:1400/1*5lyavS59mazOFnb55Z6znQ.png);
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,7 +8,31 @@ body {
     background-position: center center;
 
 
+
+
 }
-img {
-    transform: translate(165px, -40px);
+#img_id {
+    transform: translate(165px, -110px);
+}
+p {
+    color: white;
+    transform: translate(30px, 95px);
+    font-size: 50px;
+    font-weight: bold;
+    font-size: 3rem; /* Размер шрифта */
+    font-weight: 700; /* Толщина шрифта (700 обычно соответствует bold) */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+h3 {
+    color: white;
+}
+#second_form {
+    color: azure;
+}
+#first_butt {
+    transform: translate(-90px, -10px);
+}
+#first_form {
+    transform: translate(-250px);
+
 }
